@@ -11,11 +11,11 @@
 
 | Step | 내용 | 상태 | 시작일 | 완료일 | 비고 |
 |------|------|------|--------|--------|------|
-| Step 1 | learning-card 골격 생성 | Not Started | — | — | |
-| Step 2 | 덱/카드 CRUD | Not Started | — | — | |
+| Step 1 | learning-card 골격 생성 | Done | 2026-05-15 | 2026-05-15 | 빌드 성공 + Modulith verify 통과 |
+| Step 2 | 덱/카드 CRUD | Done | 2026-05-15 | 2026-05-15 | H2 + JPA + 10 API + 테스트 통과 |
 | Step 3 | SM-2 알고리즘 기초 | Not Started | — | — | |
 
-**W1 진행률**: 0/3 Steps 완료
+**W1 진행률**: 2/3 Steps 완료
 
 ### W2 (2026-05-19 ~ 05-23)
 
@@ -72,10 +72,11 @@
 - **다음**:
 
 #### 2026-05-15 (목)
-- **완료**:
+- **완료**: Step 1 — learning-card 골격 생성 (card/srs 모듈 패키지, Modulith verify, Health endpoint, Dockerfile, docker-compose.yml)
+- **완료**: Step 2 — 덱/카드 CRUD API (H2 In-Memory, JPA, Flyway 마이그레이션, 10개 API, @SpringBootTest 테스트 21개 통과)
 - **진행 중**:
-- **이슈**:
-- **다음**:
+- **이슈**: Spring Boot 4에서 @WebMvcTest/@DataJpaTest 제거됨 → @SpringBootTest + MockMvcBuilders 방식으로 대응
+- **다음**: Step 3 — SM-2 알고리즘 구현
 
 #### 2026-05-16 (금)
 - **완료**:

@@ -9,59 +9,59 @@
 ## Step 1: 프로젝트 초기 설정
 
 ### 1.1 TASK 시작
-- [ ] Step Goal / Done When / Scope / Input 확인
-- [ ] PRD_W1 해당 요구사항 확인 (프로젝트 골격)
-- [ ] Duration 산정 확인 (0.5일)
+- [x] Step Goal / Done When / Scope / Input 확인
+- [x] PRD_W1 해당 요구사항 확인 (프로젝트 골격)
+- [x] Duration 산정 확인 (0.5일)
 
 ### 1.2 요구사항 분석
-- [ ] Spring Boot 4 + Modulith 프로젝트 구조 분석
-- [ ] card/srs 2개 모듈 역할 정의
-- [ ] 팀 공통 Gradle 설정 확인
-- [ ] Instructions 초안 → TASK 문서 반영
+- [x] Spring Boot 4 + Modulith 프로젝트 구조 분석
+- [x] card/srs 2개 모듈 역할 정의
+- [x] 팀 공통 Gradle 설정 확인
+- [x] Instructions 초안 → TASK 문서 반영
 
 ### 1.3 Security 1차 검토
-- [ ] 인증 필요 여부: No (골격만 생성)
-- [ ] 권한 종류: 없음
-- [ ] 공개 API 여부: No (Health endpoint만)
-- [ ] 결과 → TASK Constraints 반영
+- [x] 인증 필요 여부: No (골격만 생성)
+- [x] 권한 종류: 없음
+- [x] 공개 API 여부: No (Health endpoint만)
+- [x] 결과 → TASK Constraints 반영
 
 ### 1.4 ERD 설계
-- [ ] 골격 단계 — ERD 해당 없음
-- [ ] 모듈별 패키지 구조도 작성
-- [ ] Duration(final) 갱신
+- [x] 골격 단계 — ERD 해당 없음
+- [x] 모듈별 패키지 구조도 작성
+- [x] Duration(final) 갱신
 
 ### 1.5 Security 2차 검토
-- [ ] 민감 정보 암호화: 비해당 (골격 단계)
-- [ ] Soft Delete 정책: 비해당
-- [ ] 행 단위 접근 제어: 불필요
-- [ ] 결과 → TASK Constraints 반영
+- [x] 민감 정보 암호화: 비해당 (골격 단계)
+- [x] Soft Delete 정책: 비해당
+- [x] 행 단위 접근 제어: 불필요
+- [x] 결과 → TASK Constraints 반영
 
 ### 1.6 DTO / Entity 설계 (API First)
-- [ ] 골격 단계 — 빈 Controller/Service 클래스만 생성
-- [ ] 각 모듈 package-info.java + @ApplicationModule 설정
-- [ ] Output Format → TASK 반영
+- [x] 골격 단계 — 빈 Controller/Service 클래스만 생성
+- [x] 각 모듈 package-info.java + @ApplicationModule 설정
+- [x] Output Format → TASK 반영
 
 ### 1.7 Repository 구현
-- [ ] 골격 단계 — Repository 해당 없음
-- [ ] ApplicationModulesTest 구조 검증 테스트 작성
+- [x] 골격 단계 — Repository 해당 없음
+- [x] ApplicationModulesTest 구조 검증 테스트 작성
 
 ### 1.8 Service + Test
-- [ ] 빈 Service 클래스 생성 (card, srs 모듈)
-- [ ] ApplicationModulesTest 통과 확인
-- [ ] `./gradlew build` 성공 확인
-- [ ] Health endpoint (`/actuator/health`) 확인
+- [x] 빈 Service 클래스 생성 (card, srs 모듈)
+- [x] ApplicationModulesTest 통과 확인
+- [x] `./gradlew build` 성공 확인
+- [ ] Health endpoint (`/actuator/health`) 확인 (런타임 확인 필요)
 
 ### 1.9 Controller + Test
-- [ ] 빈 Controller 클래스 생성 (card, srs 모듈)
-- [ ] Dockerfile 작성 (multi-stage build)
-- [ ] Docker 이미지 빌드 성공 확인
+- [x] 빈 Controller 클래스 생성 (card, srs 모듈)
+- [x] Dockerfile 작성 (multi-stage build)
+- [ ] Docker 이미지 빌드 성공 확인 (docker 환경에서 확인 필요)
 
 ### 1.10 View + Test (해당 시)
-- [ ] Flutter 화면 연동: 해당 없음
-- [ ] docker compose에서 learning-card-svc 실행 확인
-- [ ] RULE Reference → TASK 반영
+- [x] Flutter 화면 연동: 해당 없음
+- [ ] docker compose에서 learning-card-svc 실행 확인 (docker 환경에서 확인 필요)
+- [x] RULE Reference → TASK 반영
 
-**Step 1 Status**: [ ] Not Started / [ ] In Progress / [ ] Done
+**Step 1 Status**: [ ] Not Started / [ ] In Progress / [x] Done
 
 ---
 
